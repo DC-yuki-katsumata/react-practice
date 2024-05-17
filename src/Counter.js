@@ -6,16 +6,15 @@
 // カウンターの値を表示し、ボタンをクリックするとカウンターの値が1増える。
 
 import React, { useState } from 'react';
+import './Counter.css';
 
 function Counter() {
     const [count, setCount] = useState(0);
-    
+
     return (
-        <div>
-            <p>カウンターの値: {count}</p>
-            <button onClick={() => setCount(count+1)}>
-                カウントを増やす
-            </button>
+        <div className="counter">
+            <p>Count: {count}</p>
+            <button onClick={() => setCount(count + 1)}>Increase</button>
         </div>
     );
 }

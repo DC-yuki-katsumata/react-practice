@@ -1,8 +1,8 @@
 import React from 'react';
 
-function TodoItem({ task }) { // タスクを受け取る
+function TodoItem({ task }) {
     return (
-        <li>
+        <li className="todo-item">
             {task}
         </li>
     );

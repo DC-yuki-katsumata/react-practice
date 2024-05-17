@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './NameForm.css';
 
 function NameForm() {
     const [name, setName] = useState('');
@@ -13,7 +14,7 @@ function NameForm() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="name-form" onSubmit={handleSubmit}>
             <label>
                 名前:
                 <input type="text" value={name} onChange={handleChange} />

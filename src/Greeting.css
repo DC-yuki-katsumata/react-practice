@@ -1,0 +1,17 @@
+.greeting {
+    color: #2c3e50;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #f3f3f3;
+}
+
+.greeting:last-of-type {
+    color: #2c3e50;
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 30px;
+    background-color: #f3f3f3;
+}

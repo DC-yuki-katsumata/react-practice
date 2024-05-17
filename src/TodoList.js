@@ -1,11 +1,12 @@
 import React from 'react';
-import TodoItem from './TodoItem'; // 必要に応じてインポートのパスを修正
+import TodoItem from './TodoItem';
+import './TodoList.css';
 
-function TodoList({ tasks }) { // タスクの配列を受け取る
+function TodoList({ tasks }) {
     return (
-        <ul>
+        <ul className="todo-list">
             {tasks.map(task => (
-                <TodoItem key={task.id} task={task.task} /> // 各タスクを TodoItem コンポーネントとして表示
+                <TodoItem key={task.id} task={task.task} />
             ))}
         </ul>
     );
