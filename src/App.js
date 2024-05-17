@@ -2,6 +2,7 @@ import './App.css';
 import './Greeting'
 import Greeting from './Greeting';
 import Counter from './Counter';
+import NameForm from './NameForm';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Greeting name="Chikara"></Greeting>
       <Greeting name="Tokiya"></Greeting>
       <Counter></Counter>
+      <NameForm></NameForm>
     </div>
   );
 }
